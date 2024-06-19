@@ -17,6 +17,5 @@ Toast Library for FLutter
   s.dependency 'Flutter'
   s.dependency 'Toast'
   s.pod_target_xcconfig = {'DEFINES_MODULE' => 'YES'}
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
+  s.resource_bundles = {'fluttertoast_privacy' => ['Resources/PrivacyInfo.xcprivacy']}
 end
-
